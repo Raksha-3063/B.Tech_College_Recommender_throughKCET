@@ -29,7 +29,7 @@ A full-stack web application that helps Karnataka students discover suitable eng
 * Next.js
 * TypeScript
 * Tailwind CSS
-* Axios
+* Axios.
 * Lucide React
 
 ### Tools

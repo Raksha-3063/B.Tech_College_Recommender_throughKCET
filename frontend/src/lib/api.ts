@@ -1,7 +1,10 @@
+
 import axios from 'axios';
 import { CollegeRecommendation, RecommendationRequest } from '../types';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000';
+const API_URL =
+  process.env.NEXT_PUBLIC_API_URL ||
+  'https://b-tech-college-recommender-throughkcet-6.onrender.com';
 
 const api = axios.create({
   baseURL: API_URL,
